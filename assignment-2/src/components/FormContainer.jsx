@@ -1,7 +1,7 @@
 import { useReducer } from "react";
 import FormField from "./FormField";
 import Button from "./Button";
-import "./styles/Form.css";
+
 
 const formReducer = (state, action) => {
   switch (action.type) {
